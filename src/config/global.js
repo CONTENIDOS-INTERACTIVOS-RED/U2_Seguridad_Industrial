@@ -1,7 +1,8 @@
 export default {
   global: {
-    numeroUnidad: '3',
-    tituloUnidad: 'Bioética y sostenibilidad en el desarrollo económico global',
+    numeroUnidad: '2',
+    tituloUnidad:
+      'Herramientas técnicas y tecnológicas para la gestión de riesgos',
   },
   menuPrincipal: {
     menu: [
@@ -15,68 +16,33 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Título tema',
+        titulo: 'Software especializado para gestión de riesgos',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Subtítulo tema',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Subtítulo tema',
-            hash: 't_1_2',
-          },
-        ],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Título tema',
+        titulo: 'Equipos de monitoreo y medición',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Subtítulo tema',
+            titulo: '¿Qué es un sonómetro?',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Subtítulo tema',
+            titulo: 'Unidades y escalas de medición',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Subtítulo tema',
+            titulo: 'Agentes químicos',
             hash: 't_2_3',
-          },
-        ],
-      },
-      {
-        nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
-        numero: '3',
-        titulo: 'Título tema',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Subtítulo tema',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Subtítulo tema',
-            hash: 't_3_2',
           },
         ],
       },
@@ -118,26 +84,135 @@ export default {
   referencias: [
     {
       referencia:
-        'Ardaraz, M. (2002). Teoría de las tres dimensiones de desarrollo sostenible: . Ecosistemas, 11(2)',
-      link:
-        'https://www.revistaecosistemas.net/index.php/ecosistemas/article/view/614',
+        'de Paz, J. G. (2011). <em>Ruido: para los posgrados de higiene y seguridad industrial.</em> Editorial Nobuko.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/77687',
     },
     {
       referencia:
-        'Beltrán, D. J. (2002). La estrategia de desarrollo sostenible de la Unión Europea en el contexto global: de Río a Johannesburgo. ICE. Revista de Economía, (800).',
-      link: '',
+        'Otero Mateo, M., Pórtela Núñez, J. M. & Pastor Fernández, A. (2013). <em>Sistemas integrados de gestión.</em> Servicio de Publicaciones de la Universidad de Cádiz.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/33897',
+    },
+    {
+      referencia:
+        'Henao Robledo, F. (2014). <em>Riesgos físicos II: iluminación</em> (2ª ed.). Ecoe Ediciones.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/114362',
+    },
+    {
+      referencia:
+        'Henao Robledo, F. (2007). <em>Riesgos físicos I: ruido, vibraciones y presiones anormales.</em> Ecoe Ediciones.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/69031',
+    },
+    {
+      referencia:
+        'DEKRA. (s.f.). <em>Análisis de riesgos de proceso (HAZOP).</em>',
+      link: 'https://www.dekra.es/es/analisis-de-riesgos-de-proceso-hazop/',
+    },
+    {
+      referencia:
+        'Portal INSST. (s.f.). <em>NTP 333: Análisis probabilístico de riesgos: Metodología del «Árbol de fallos y errores»</em> - PDF - Portal INSST - INSST.',
+      link:
+        'https://www.insst.es/documentacion/colecciones-tecnicas/ntp-notas-tecnicas-de-prevencion/10-serie-ntp-numeros-331-a-365-ano-1995/ntp-333-analisis-probabilistico-de-riesgos-metodologia-del-arbol-de-fallos-y-errores',
     },
   ],
   glosario: [
     {
-      termino: 'Bioética',
+      termino: 'Agentes químicos',
       significado:
-        'disciplina que estudia las implicaciones éticas, sociales y legales de los avances biológicos y médicos, buscando garantizar que las decisiones en estos campos respeten la dignidad humana, los derechos fundamentales y la justicia social.',
+        'Sustancias en forma de vapor, gas, polvo o niebla que pueden afectar la salud de los trabajadores.',
     },
     {
-      termino: '<em>Design Thinking</em>',
+      termino: 'Análisis <em>What-If</em>',
       significado:
-        'método de diseño centrado en el usuario que se basa en la comprensión de las necesidades y expectativas de los clientes, para crear soluciones innovadoras y efectivas.',
+        'Técnica exploratoria que plantea escenarios hipotéticos para identificar riesgos.',
+    },
+    {
+      termino: 'Análisis de causa raíz',
+      significado:
+        'Metodología que identifica las causas fundamentales de incidentes para evitar su recurrencia.',
+    },
+    {
+      termino: '<em>Checklists</em>',
+      significado:
+        'Listas de verificación usadas para inspeccionar condiciones de seguridad en el trabajo.',
+    },
+    {
+      termino: 'Dosímetro',
+      significado:
+        'Dispositivo que mide la exposición acumulada al ruido en la jornada laboral.',
+    },
+    {
+      termino: 'Equipos de medición',
+      significado:
+        'Instrumentos usados para detectar y cuantificar riesgos físicos o químicos.',
+    },
+    {
+      termino: 'FMEA',
+      significado:
+        'Técnica que analiza modos de falla y sus efectos en procesos o sistemas.',
+    },
+    {
+      termino: 'HAZOP',
+      significado:
+        'Análisis sistemático de desviaciones en procesos para identificar riesgos potenciales.',
+    },
+    {
+      termino: 'Iluminancia',
+      significado:
+        'Cantidad de luz que incide sobre una superficie, medida en lux.',
+    },
+    {
+      termino: 'Leq',
+      significado:
+        'Nivel equivalente de presión sonora durante un periodo de tiempo determinado.',
+    },
+    {
+      termino: 'Luxómetro',
+      significado:
+        'Instrumento utilizado para medir la iluminancia en un área de trabajo.',
+    },
+    {
+      termino: 'Mapas de calor',
+      significado:
+        'Representación visual que identifica áreas con mayor exposición al riesgo.',
+    },
+    {
+      termino: 'Matriz IPER',
+      significado:
+        'Herramienta que combina probabilidad y severidad para evaluar riesgos.',
+    },
+    {
+      termino: 'Monitores PID/FID',
+      significado:
+        'Equipos para medir en tiempo real compuestos orgánicos volátiles en el aire.',
+    },
+    {
+      termino: 'RCA',
+      significado: 'Siglas en inglés del análisis de causa raíz.',
+    },
+    {
+      termino: 'Ruido ocupacional',
+      significado:
+        'Exposición a niveles de sonido en el trabajo que pueden causar daño auditivo.',
+    },
+    {
+      termino: '<em>Software</em> de gestión',
+      significado:
+        'Aplicación tecnológica que permite integrar y gestionar datos de riesgos.',
+    },
+    {
+      termino: 'Valores límite permisibles (VLP)',
+      significado:
+        'Concentraciones máximas de exposición a agentes para proteger la salud del trabajador.',
+    },
+    {
+      termino: 'dB(A)',
+      significado:
+        'Unidad de medida de presión sonora ajustada a la percepción humana del sonido.',
+    },
+    {
+      termino: 'Árbol de fallos (FTA)',
+      significado:
+        'Herramienta gráfica que representa las causas de un evento no deseado.',
     },
   ],
 }

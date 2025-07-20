@@ -17,13 +17,33 @@
 
 .bg-color
   &-1
-    background-color: #EAF8FD
+    background-color: #CBE4F4
   &-2
-    background-color: #FFFBE8
+    background-color: #2F5B79
   &-3
-    background-color: #F0E9F6
+    background-color: #E6EFF3
   &-4
-    background-color: #EAF8FD
+    background-color: #7B3289 !important
+  &-5
+    background-color: #FBEDFE
+  &-6
+    background-color: #F8CE24
+  &-7
+    background: linear-gradient(0deg,rgba(255, 255, 255, 1) 0%, rgba(253, 245, 210, 1) 41%, rgba(253, 245, 210, 1) 60%, rgba(255, 255, 255, 1) 100%)
+  &-8
+    background-color: #FCEBA6
+  &-9
+    background-color: #F9DDFE
+  &-10
+    background-color: #FDF5D2
+  &-11
+    background: linear-gradient(0deg,rgba(255, 255, 255, 1) 0%, rgba(203, 228, 244, 1) 41%, rgba(203, 228, 244, 1) 60%, rgba(255, 255, 255, 1) 100%)
+  &-12
+    background-color: #EEF4F7
+  &-13
+    background-color: #DCEDF8
+  &-14
+    background: linear-gradient(0deg,rgba(255, 255, 255, 1) 0%, rgba(246, 205, 253, 1) 41%, rgba(246, 205, 253, 1) 60%, rgba(255, 255, 255, 1) 100%)
   &-info
     background-color: #E8EEFD
   &-sintesis
@@ -51,7 +71,7 @@
 
 .bg-fondo
   &-1
-    background-image: url("../assets/bg/bg1.png") !important
+    background-image: url("../assets/bg/bg1.svg") !important
     background-position: top
   &-2
     // background-image: url("../assets/bg/bg2.png") !important
@@ -73,7 +93,7 @@ $custom-card-img-height: 322px
   box-shadow: $custom-card-shadow
   height: 100%
   background-color: $custom-card-text-bg
-  transition: transform 0.3s ease 
+  transition: transform 0.3s ease
   cursor: pointer
   &:hover
     transform: scale(1.01)
@@ -87,14 +107,13 @@ $custom-card-img-height: 322px
   box-shadow: $custom-card-shadow
   height: 100%
   background-color: $custom-card-text-bg
-  transition: transform 0.3s ease 
+  transition: transform 0.3s ease
   cursor: pointer
   &:hover
     transform: scale(1.01)
   &__image
     height: 253px
     object-fit: cover
-
 
 .acordion__header
   background-color: lighten($color-acento-contenido, 25%) !important
@@ -107,7 +126,6 @@ $custom-card-img-height: 322px
 .acordion__contenido
   background-color: lighten($color-acento-contenido, 27%) !important
 
-
 .anexo__texto
   p, strong
     font-size: 14px !important
@@ -116,12 +134,11 @@ $custom-card-img-height: 322px
 .bloque-texto-c
   padding: 34px !important
   p
-    font-size: 22px  !important
+    font-size: 22px !important
     line-height: 26.4px !important
     font-weight: 700 !important
   i
     color: $color-primario !important
-
 
 .bg-ppal-claro
   background-color: #F7F4ED
@@ -134,7 +151,6 @@ $custom-card-img-height: 322px
 .bg-red-claro
   background-color: #FCDFDB !important
 
-
 .box-shadow
   box-shadow: 0 4px 8px rgba(0,0,0,0.1)
   border: 2px solid rgba(0,0,0,0.1)
@@ -143,7 +159,7 @@ $custom-card-img-height: 322px
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 10px 15px rgba(0, 0, 0, 0.05)
 
 .tabs-content
-  background-color: #F4F4F4
+  background-color: #E6EFF3
 
 .material-complementario
   p,a
@@ -159,7 +175,6 @@ $custom-card-img-height: 322px
   width: 48px !important
   @media screen and (max-width: $bp-max-sm)
     width: 38px !important
-  
 
 .img-infografica__item__dot:before, .img-infografica-b__item__dot:before
   opacity: 1
@@ -168,7 +183,7 @@ $custom-card-img-height: 322px
 
 .img-infografica__card, .img-infografica-b__card
   width: 350px !important
-  
+
 .img-infografica__item__numero
   font-weight: 900
 
@@ -203,7 +218,7 @@ $custom-card-img-height: 322px
 
 .border-top.color-primario
   border-top: 5px solid $color-primario !important
-  
+
 .material-complementario
   p,a
     font-size: 1rem !important
@@ -211,19 +226,15 @@ $custom-card-img-height: 322px
     text-decoration: none
     color: $color-sistema-texto
 
-
-
 .lista-ul--color li > i:first-of-type
-  color: #453179 !important
+  color: #7B3289 !important
 
 .lista-ul--color.color-dark li > i:first-of-type
-  color: #453179 !important
-          
+  color: #7B3289 !important
 
 th.bg-color-tabla
   background-color: #453179 !important
   color: #fff !important
-
 
 .bordes
   border: 1px solid lightgray !important
